@@ -6,5 +6,8 @@ export const Header = () => {
 
 const IgemHeader = styled.header`
   height: 110px;
+  line-height: 110px ;
   background-color: #008000;
+  text-align: center;
+  margin: auto;
 `;
