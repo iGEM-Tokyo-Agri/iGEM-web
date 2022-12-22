@@ -5,7 +5,9 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   html,
-  body,
+  body{
+    background-color: #F5F5F5;
+  }
   textarea{
     padding: 0;
     margin: 0;
