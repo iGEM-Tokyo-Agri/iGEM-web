@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+// ヘッダー　propsでヘッダーにアイコンや項目など表示するものを渡す
 export const BaseHeader = (props: any) => {
   return (
     <>
