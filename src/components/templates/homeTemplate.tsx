@@ -8,11 +8,11 @@ import Home from "../../pages/index";
 export const HomeTemplate = () => {
   const HomeContents = {
     "1. iGEMについて": "/iGEM.png",
-    "2. 合成生物学": "comming soon...",
-    "3. プロジェクト": "comming soon...",
-    "4. 寄付・協賛": "comming soon...",
-    "5. 活動記録": "comming soon...",
-    "6. チームメンバー": "comming soon...",
+    "2. 合成生物学": "/DNA.png",
+    "3. プロジェクト": "/tube.png",
+    "4. 寄付・協賛": "/handshake.png",
+    "5. 活動記録": "coming soon...",
+    "6. チームメンバー": "/member.png",
   };
   return (
     <div>
