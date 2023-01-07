@@ -3,27 +3,51 @@ import Image from "next/image";
 
 type ItemProps = {
   item: any;
+  width: number;
+  height: number;
+  marginTop: string;
+  marginRight: string;
+};
+
+type StyleProps = {
+  marginTop: string;
+  marginRight: string;
 };
 
 export const TopPageItemBox = (props: ItemProps) => {
   console.log(typeof props.item);
+  //一文字目の判定によって表示を変える
   return (
     <>
       {props.item.charAt(0) !== "/" ? (
         <TopPageItemBoxStyle>coming soon...</TopPageItemBoxStyle>
       ) : (
-        <ImageInBox src={props.item} width={346} height={274} alt="ロゴ写真" />
+        <ImageBoxWrapper>
+          <ImageInBox
+            src={props.item}
+            width={props.width}
+            height={props.height}
+            alt="ロゴ写真"
+            marginTop={props.marginTop}
+            marginRight={props.marginRight}
+          />
+        </ImageBoxWrapper>
       )}
     </>
   );
 };
 
-const ImageInBox = styled(Image)`
+const ImageBoxWrapper = styled.div`
   width: 346px;
   height: 274px;
-  line-height: 274px;
   background-color: #c0c0c0;
   border-radius: 19px;
+  align-items: center;
+`;
+
+const ImageInBox = styled(Image)<StyleProps>`
+  margin-top: ${(props) => props.marginTop};
+  padding-right: ${(props) => props.marginRight};
   text-align: center;
   object-fit: cover;
 `;
