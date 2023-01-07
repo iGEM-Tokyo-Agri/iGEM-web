@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styled from "styled-components";
+import { TokyoAgriLogo } from "./tokyoAgriLogo";
 
 type HeadreContentsProps = {
   contentsItems: { [contentsItems: string]: string };
@@ -22,10 +23,11 @@ export const HeaderContents = (props: HeadreContentsProps) => {
 };
 
 const ContentsWrapper = styled.div`
+  width: 700px;
   margin: 0 55px 13px auto;
   padding-top: 76px;
   font-size: 24px;
-  width: 702px;
+  max-width: 702px;
   height: 50px;
   display: flex;
   justify-content: space-evenly;

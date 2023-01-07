@@ -1,5 +1,6 @@
 import { BaseHeader } from "components/atoms/baseHeader";
 import { HeaderContents } from "components/atoms/headerContents";
+import { TokyoAgriLogo } from '../atoms/tokyoAgriLogo';
 
 export const Header = () => {
     //ヘッダーに常時する項目名とリンク
@@ -13,7 +14,7 @@ export const Header = () => {
 
   return (
     <>
-      <BaseHeader contents={<HeaderContents contentsItems={contentsItems} />} />
+      <BaseHeader logo={<TokyoAgriLogo />} contents={<HeaderContents contentsItems={contentsItems} />} />
     </>
   );
 };
