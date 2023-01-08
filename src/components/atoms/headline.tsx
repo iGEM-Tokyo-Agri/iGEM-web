@@ -26,7 +26,7 @@ const HeadlineText = styled.div`
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 129px;
+  line-height: 139px;
 `;
 
 const HeadlineImg = styled.div`
@@ -38,7 +38,6 @@ const Img = styled.img`
   position: absolute;
   width: 100%;
   height: 311px;
-  object-fit: cover;
 `;
 
 const HeadlineDiv = styled.div`
