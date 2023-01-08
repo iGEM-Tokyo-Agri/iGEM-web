@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styled from "styled-components";
-import { TokyoAgriLogo } from "./tokyoAgriLogo";
 
 type HeadreContentsProps = {
   contentsItems: { [contentsItems: string]: string };
