@@ -1,30 +1,31 @@
 import styled from "styled-components";
 import Image from "next/image";
+import media from "styled-media-query";
 
 export const Headline = (props: any) => {
     return (
         <>
             <HeadlineDiv>
-                <HeadlineImg>
-                    <Image src={props.img} width={1280} height={311} alt="" />
-                </HeadlineImg>
                 <HeadlineText>
                     {props.text}
                 </HeadlineText>
             </HeadlineDiv>
+            <HeadlineImg>
+                <Image src={props.img} width={1280} height={311} alt="" />
+            </HeadlineImg>
         </>
     )
 }
 
 const HeadlineText = styled.div`
 position: absolute;
+width:674px;
+height: 129px;
 top: 211px;
-margin-left:auto;
-display:flex ;
+left: 50%;
+transform: translateX(-50%);
 
 
-
-z-index:1;
 
 font-family: 'Noto Sans JP';
 font-style: normal;
@@ -34,10 +35,8 @@ line-height: 139px;`
 
 const HeadlineImg = styled.div`
 position: absolute;
+width:100%;
 top: 120px;
-margin-left:auto;
-margin-right:auto;
-background-size:cover;
 z-index:-1;
 `
 
