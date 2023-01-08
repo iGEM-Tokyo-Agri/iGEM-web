@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
 // ヘッダー　propsでヘッダーにアイコンや項目など表示するものを渡す
-export const BaseHeader = (props: any) => {
+export const BaseFooter = (props: any) => {
   return (
     <>
-      <IgemHeader>
+      <IgemFooter>
         {props.logo}
         {props.contents}
-      </IgemHeader>
+      </IgemFooter>
     </>
   );
 };
 
-const IgemHeader = styled.header`
+const IgemFooter = styled.footer`
   margin: 0px;
-  height: 120px;
-  background-color: #f5f5f5;
+  height: 199px;
+  background-color: #d9d9d9;
   display: flex;
 `;
