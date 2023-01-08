@@ -8,7 +8,7 @@ import { Footer } from "../organisms/footer";
 export const HomeTemplate = () => {
   //表示タイトル:[写真のpath,クリックした時の行き先のpath,画像marginTop] この配列にはstringのみ入れる
   const HomeContents = {
-    "1. iGEMについて": ["/iGEM.png", "about", "0", "0"],
+    "1. iGEMについて": ["/iGEM.png", "/aboutIGEM", "0", "0"],
     "2. 合成生物学": ["/DNA.png", "syntheticBiology", "0", "0px"],
     "3. プロジェクト": ["/tube.png", "project", "0"],
     "4. 寄付・協賛": ["/handshake.png", "sponsorship", "40px", "0"],

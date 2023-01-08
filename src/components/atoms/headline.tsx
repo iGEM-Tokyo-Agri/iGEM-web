@@ -9,10 +9,11 @@ export const Headline = (props: any) => {
                 <HeadlineText>
                     {props.text}
                 </HeadlineText>
+                <HeadlineImg>
+                    <Img src={props.img} />
+                </HeadlineImg>
             </HeadlineDiv>
-            <HeadlineImg>
-                <Image src={props.img} width={1280} height={311} alt="" />
-            </HeadlineImg>
+
         </>
     )
 }
@@ -34,10 +35,14 @@ font-size: 96px;
 line-height: 139px;`
 
 const HeadlineImg = styled.div`
-position: absolute;
-width:100%;
+overflow: hidden;
 top: 120px;
 z-index:-1;
+`
+const Img = styled.img`
+position: absolute;
+width:100%;
+height:311px;
 `
 
 const HeadlineDiv = styled.div`
