@@ -26,6 +26,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <meta key="viewport" name="viewport" />
         <meta property="og:type" content="website" />
         <meta
+          name="google-site-verification"
+          content="Q6AMr4yAOe1o7HCdQ59gBJCqzLiI6G6c1epkHXIMCbk"
+        />
+        <meta
           name="description"
           content="東京農業大学、iGEMチームのTokyo AgriのWEBサイトです。私たちの活動や合成生物学についての情報を掲載しています。"
         />
