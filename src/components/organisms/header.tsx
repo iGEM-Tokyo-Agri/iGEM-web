@@ -9,7 +9,7 @@ export const Header = () => {
     Home: "/",
     iGEMについて: "/aboutIGEM",
     合成生物学: "syntheticBiology",
-    プロジェクト: "project",
+    プロジェクト: "/project",
     "寄付・協賛": "sponsorship",
   };
 
