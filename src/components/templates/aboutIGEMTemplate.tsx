@@ -84,7 +84,7 @@ export const AboutIGEMTemplate = () => {
                     発表など多岐にわたります。
                     <br />
                     <br />
-                    iGEMでは次世代シーケンサー、CRISPR技術、調査DNAの
+                    iGEMでは次世代シーケンサー、CRISPR技術、長鎖DNAの
                     <br />
                     合成、機械学習など、その時の最新技術が利用されること
                     <br />
