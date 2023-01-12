@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Image from "next/image";
-import media from "styled-media-query";
+
 
 export const Headline = (props: any) => {
   return (
@@ -17,7 +16,7 @@ export const Headline = (props: any) => {
 
 const HeadlineText = styled.div`
   position: absolute;
-  width: 674px;
+  width: 774px;
   height: 129px;
   top: 211px;
   left: 50%;
