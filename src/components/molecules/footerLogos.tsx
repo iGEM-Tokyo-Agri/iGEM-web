@@ -20,38 +20,13 @@ export const FooterLogos = () => {
             }}
           />
         </Link>
-        <TwitterIcon
-          color="primary"
-          sx={{
-            fontSize: 68,
-            color: "white",
-            backgroundColor: "#1da1f2",
-            borderRadius: "50%",
-            padding: 2,
-            cursor: "pointer",
-            ":hover": { opacity: "50%" },
-          }}
-        />
-        <TwitterIcon
-          color="primary"
-          sx={{
-            fontSize: 68,
-            color: "white",
-            backgroundColor: "#1da1f2",
-            borderRadius: "50%",
-            padding: 2,
-            cursor: "pointer",
-            ":hover": { opacity: "50%" },
-          }}
-        />
       </FooterLogoStyle>
     </>
   );
 };
 
 const FooterLogoStyle = styled.div`
-  width: 420px;
   display: flex;
-  margin: 48px 0 0 0;
+  margin: 48px 0 0 76px;
   justify-content: space-evenly;
 `;
