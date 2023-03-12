@@ -21,7 +21,6 @@ const HeadlineText = styled.div`
   top: 211px;
   left: 50%;
   transform: translateX(-50%);
-
   font-family: "Noto Sans JP";
   font-style: normal;
   font-weight: 900;
