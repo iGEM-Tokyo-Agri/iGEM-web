@@ -29,16 +29,16 @@ export const AboutIGEMTemplate = () => {
             </WrapperIconAndGears>
             <IGEMDiscription>
                 iGEM(the international Genetically Engineered Machine competition)とは
-                <br />
+
                 学生がチームを組み、自分たちで社会問題となっている課題を設定し、それ
-                <br />
+
                 を解決する<b>ライフサイエンスツール</b>を開発する国際大会です。
                 <br />
                 <br />
                 当初はマサチューセッツ工科大学の講座としてスタートしましたが、2006年
-                <br />
+
                 に国際大会となり、現在では世界中から３００チーム以上、６０００人以上
-                <br />
+
                 が参加する大規模な大会となっています。
             </IGEMDiscription>
 
@@ -56,18 +56,18 @@ export const AboutIGEMTemplate = () => {
                     height={372}
                 />
                 <IGEMStudentDiscription>
-                    合成生物学の学際的な特徴から、生物実験を得意とする<b>生
-                        <br />
-                        物系の学生</b>、機械学習やwebデザインを得意とする情報系
-                    <br />
+                    合成生物学の学際的な特徴から、生物実験を得意とする
+
+                    <b>生物系の学生</b>、機械学習やwebデザインを得意とする情報系
+
                     の学生、生命システムのデザインやモデルを用いたシュミ
-                    <br />
+
                     レーション・解析を得意とする<b>制御系の学生</b>、社会とのコ
-                    <br />
+
                     ミュニケーションをはかる<b>社会系の学生</b>など、多彩なバッ
-                    <br />
+
                     クグラウンドを持つ学生がチームを組み、協力して課題を
-                    <br />
+
                     解決します。
                 </IGEMStudentDiscription>
 
@@ -76,18 +76,18 @@ export const AboutIGEMTemplate = () => {
             <WrapperGearAndDiscription>
                 <IGEMEvaluationDiscription>
                     iGEMの評価項目は遺伝子パーツを開発することの他に、
-                    <br />
+
                     数理モデリング、他チームとのコラボレーション、社会と
-                    <br />
+
                     のコミュニケーション、Wikiの作成、ポスター発表と口頭
-                    <br />
+
                     発表など多岐にわたります。
                     <br />
                     <br />
-                    iGEMでは次世代シーケンサー、CRISPR技術、調査DNAの
-                    <br />
-                    合成、機械学習など、その時の最新技術が利用されること
-                    <br />
+                    iGEMでは次世代シーケンサー、CRISPR技術、
+
+                    機械学習など、その時の最新技術が利用されること
+
                     も特徴で刺激的な大会となっています。
                 </IGEMEvaluationDiscription>
                 <Gear2Img

@@ -13,7 +13,7 @@ export const HomeTemplate = () => {
     "3. プロジェクト": ["/tube.png", "/project", "0"],
     "4. 寄付・協賛": ["/handshake.png", "sponsorship", "40px", "0"],
     "5. 活動記録": ["coming soon...", "record", "0", "0"],
-    "6. チームメンバー": ["/member.png", "team", "0", "0"],
+    "6. チームメンバー": ["coming soon...", "team", "0", "0"],
   };
 
   //表示タイトル:[width,height] こちらの配列はnumberのみ入れる
